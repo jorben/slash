@@ -68,8 +68,8 @@ const SignIn: React.FC = () => {
           <div className="w-80 max-w-full h-full py-4 flex flex-col justify-start items-center">
             <div className="w-full py-4 grow flex flex-col justify-center items-center">
               <div className="flex flex-row justify-start items-center w-auto mx-auto gap-y-2 mb-4">
-                <Icon.CircleSlash className="w-12 h-auto dark:text-gray-500 mr-2" strokeWidth={1.5} />
-                <span className="text-3xl opacity-80 dark:text-gray-500">Slash</span>
+                <Icon.Cable className="w-12 h-auto dark:text-gray-500 mr-2" strokeWidth={1.5} />
+                <span className="text-3xl opacity-80 dark:text-gray-500">URIx.CC</span>
               </div>
               <form className="w-full mt-6" onSubmit={handleSigninBtnClick}>
                 <div className={`flex flex-col justify-start items-start w-full ${actionBtnLoadingState.isLoading ? "opacity-80" : ""}`}>
@@ -79,7 +79,7 @@ const SignIn: React.FC = () => {
                       className="w-full py-3"
                       type="email"
                       value={email}
-                      placeholder="steven@slash.com"
+                      placeholder="bob@urix.cc"
                       onChange={handleEmailInputChanged}
                     />
                   </div>
